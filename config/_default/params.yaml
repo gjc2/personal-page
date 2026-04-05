@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "管进程"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Personal academic homepage built with HugoBlox Academic CV."
+    description: "管进程的个人学术主页，关注 AI 与 Algorithm。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""              # Twitter/X handle for Twitter Cards (without @)

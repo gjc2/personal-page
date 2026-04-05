@@ -1,7 +1,7 @@
 ---
-title: News Placeholder
-date: 2026-04-04
-summary: Replace this with your latest paper acceptance, award, talk, or project update.
+title: 个人主页已上线
+date: 2026-04-05
+summary: 使用 Hugo Academic 风格模板搭建个人学术主页，并整理了个人教育经历、研究兴趣与项目背景。
 ---
 
-Replace this sample news item with a real update.
+个人学术主页已完成基础搭建，后续将继续补充项目、论文与学术活动信息。
