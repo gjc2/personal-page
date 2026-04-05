@@ -44,6 +44,11 @@ jobs:
       with:
         node-version: ${{ env.NODE_VERSION }}
 
+    - name: Setup Go
+      uses: actions/setup-go@v6
+      with:
+        go-version-file: go.mod
+
     - name: Setup pnpm
       if: hashFiles('package.json') != ''
       uses: pnpm/action-setup@v4
