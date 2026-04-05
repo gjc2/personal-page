@@ -1,8 +1,8 @@
 title: ''
 baseURL: 'https://gjc2.github.io/personal-page/'
 
-defaultContentLanguage: en
-hasCJKLanguage: false
+defaultContentLanguage: zh
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
