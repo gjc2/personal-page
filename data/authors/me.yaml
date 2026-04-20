@@ -13,9 +13,9 @@ status:
   icon: ''
 role: 计算机科学与技术本科生
 bio: |
-  我是中国科学技术大学计算机科学与技术学院计算机科学与技术专业学生，研究兴趣为 AI 和 Algorithm。
-  我在高等数学、线性代数、概率论等基础课程中表现扎实，关注算法设计、机器学习与工程实践的结合。
-  目前希望继续在人工智能与算法相关方向深入探索，并积极参与科研与项目开发。
+  我是中国科学技术大学计算机科学与技术学院计算机科学与技术专业学生。
+  我的研究方向是 ECSP 框架下判定问题、优化问题和计数问题的研究，关注相关理论模型、复杂性分析与算法设计。
+  我希望继续在理论计算机科学、算法与人工智能交叉方向开展更系统的学习与研究。
 
 affiliations:
   - name: 中国科学技术大学
@@ -27,10 +27,10 @@ links:
     label: E-mail
 
 interests:
-  - Artificial Intelligence
-  - Algorithms
-  - Machine Learning
-  - Software Systems
+  - ECSP 框架下的判定问题
+  - ECSP 框架下的优化问题
+  - ECSP 框架下的计数问题
+  - 复杂性分析与算法设计
 
 education:
   - degree: 计算机科学与技术 本科
@@ -69,13 +69,13 @@ skills:
         level: 3
   - name: 研究与工具
     items:
-      - label: PyTorch
-        level: 3
       - label: 算法设计
         level: 4
       - label: 数学建模
         level: 4
       - label: LaTeX
+        level: 3
+      - label: PyTorch
         level: 3
 
 languages:

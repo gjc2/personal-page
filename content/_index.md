@@ -1,7 +1,7 @@
 ---
 title: ''
 summary: ''
-date: 2026-04-05
+date: 2026-04-20
 type: landing
 
 design:
@@ -18,7 +18,7 @@ sections:
       headings:
         about: ''
         education: 教育经历
-        interests: 研究兴趣
+        interests: 研究方向
     design:
       background:
         gradient_mesh:
@@ -32,11 +32,11 @@ sections:
     content:
       title: 个人介绍
       text: |-
-        我目前就读于中国科学技术大学，研究兴趣集中在人工智能与算法方向。
+        我目前就读于中国科学技术大学，研究方向为 ECSP 框架下判定问题、优化问题和计数问题的研究。
 
-        在本科阶段，我系统学习了计算机科学核心课程，并参与算法竞赛、项目开发和实验室研究训练。
+        我关注相关理论模型中的复杂性分析、算法设计以及不同问题形式之间的联系，希望在理论计算机科学方向继续深入探索。
 
-        我希望继续在 AI、算法设计与智能系统方向开展更深入的学习与研究。
+        除理论研究外，我也有算法竞赛、系统开发和实验室项目训练经历。
     design:
       columns: '1'
   - block: collection
