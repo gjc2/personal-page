@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,10pt]{article}
 
 \usepackage{fontspec}
 \usepackage[T1]{fontenc}
@@ -10,30 +10,31 @@
 \usepackage{array}
 \usepackage{ragged2e}
 
-\geometry{left=1.4cm, top=0.9cm, right=1.2cm, bottom=1.0cm}
+\geometry{left=1.25cm, top=0.75cm, right=1.1cm, bottom=0.75cm}
 \pagestyle{empty}
 \urlstyle{same}
 \setlength{\tabcolsep}{0pt}
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
 \setmainfont{Times New Roman}
 \newfontfamily\zhfont{Songti SC}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip=0pt plus 1pt
-\renewcommand{\arraystretch}{1.12}
+\renewcommand{\arraystretch}{1.06}
 \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
 
 \newcommand{\cvsection}[1]{%
-  \vspace{2.5mm}
+  \vspace{1.2mm}
   {\large\bfseries #1}\\[-1mm]
   {\color{black}\rule{\textwidth}{0.4pt}}
-  \vspace{0.8mm}
+  \vspace{0.2mm}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{0.8mm}\item
+  \vspace{0.2mm}\item
   \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1} & \textit{\footnotesize #4} \\
     \footnotesize #3 & \footnotesize #2
@@ -42,7 +43,7 @@
 }
 
 \newcommand{\resumeProject}[4]{
-  \vspace{0.8mm}\item
+  \vspace{0.2mm}\item
   \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1} & \textit{\footnotesize #3} \\
     \footnotesize\textit{#2} & \footnotesize #4
@@ -51,17 +52,17 @@
 }
 
 \newcommand{\resumePOR}[3]{
-  \vspace{0.5mm}\item
+  \vspace{0.1mm}\item
   \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1}\hspace{0.3mm}#2 & \textit{\small #3}
   \end{tabular*}
   \vspace{0mm}
 }
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{0.5mm}}
-\newcommand{\resumeItemListStart}{\begin{itemize}\small\setlength{\itemsep}{0mm}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0mm}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}\setlength{\itemsep}{0mm}\setlength{\parsep}{0pt}\setlength{\topsep}{0.2mm}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-1.0mm}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\small\setlength{\itemsep}{0mm}\setlength{\parsep}{0pt}\setlength{\topsep}{0mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1.2mm}}
 
 \newcommand{\name}{管进程 \, / \, Jincheng Guan}
 \newcommand{\phone}{15345462557}
@@ -72,10 +73,11 @@
 \begin{document}
 \zhfont
 \pagecolor{white}
+\fontsize{9.4pt}{10.7pt}\selectfont
 
 \begin{minipage}[t]{2.55cm}
   \vspace{0pt}
-  \includegraphics[width=2.45cm,height=3.25cm,keepaspectratio]{id_photo.jpg}
+  \includegraphics[width=2.25cm,height=3.0cm,keepaspectratio]{id_photo.jpg}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{\dimexpr\linewidth-2.85cm\relax}
@@ -104,7 +106,7 @@
 
 \cvsection{个人介绍}
 \small{
-我是中国科学技术大学计算机科学与技术学院二年级硕士生，导师为邵帅教授。本科毕业于山东大学计算机科学与技术学院泰山学堂（计算机）。我的研究兴趣主要在理论计算机科学，尤其关注 counting complexity 中的 Holant 问题，以及 Holant 或 edge CSP 框架下判定问题和优化问题的复杂性分类。此前我接受过较系统的数学与算法训练，在数据结构、算法设计、计算理论等课程中取得较好成绩，也参与过程序设计竞赛和算法相关科研训练。
+我是中国科学技术大学计算机科学与技术学院二年级硕士生，导师为邵帅教授。本科毕业于山东大学计算机科学与技术学院泰山学堂（计算机）。我的研究兴趣主要在理论计算机科学，尤其关注 counting complexity 中的 Holant 问题，以及 Holant 或 edge CSP 框架下判定问题和优化问题的复杂性分类。
 }
 
 \vspace{1mm}
@@ -177,12 +179,13 @@
 \vspace{0mm}
 
 \cvsection{荣誉奖项}
-\resumeSubHeadingListStart
-  \resumePOR{山东大学三好学生}{前 5\%}{2021.12}
-  \resumePOR{山东大学学业一等奖学金}{前 5\%}{2021.12}
-  \resumePOR{山东大学玲珑集团奖学金}{前 5\%}{2021.12}
-  \resumePOR{全国大学生数学建模竞赛省一等奖}{前 10\%}{2022.11}
-  \resumePOR{全国高中数学奥林匹克竞赛省级赛区一等奖}{}{2019}
-\resumeSubHeadingListEnd
+\small
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+山东大学三好学生，前 5\% & 2021.12 \\
+山东大学学业一等奖学金，前 5\% & 2021.12 \\
+山东大学玲珑集团奖学金，前 5\% & 2021.12 \\
+全国大学生数学建模竞赛省一等奖，前 10\% & 2022.11 \\
+全国高中数学奥林匹克竞赛省级赛区一等奖 & 2019
+\end{tabular*}
 
 \end{document}
