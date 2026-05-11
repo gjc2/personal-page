@@ -6,18 +6,18 @@ author_profile: true
 
 I am a second-year master's student in the School of Computer Science and Technology at the University of Science and Technology of China (USTC), advised by [Prof. Shuai Shao](http://staff.ustc.edu.cn/~wwwucuc/). Before that, I received my bachelor's degree from Shandong University (SDU).
 
-My research interests are in theoretical computer science. More specifically, I focus on complexity classifications for decision, optimization, and counting problems in Holant-type frameworks.
+My research interests are in theoretical computer science. More specifically, I focus on counting complexity, Holant problems, and decision and optimization problems in Holant or edge CSP frameworks.
 
 Research interests {#research}
 ======
 
-- Counting complexity, dichotomy theorems, and related #CSP/Holant frameworks
-- Tractability and hardness classifications for decision, optimization, and counting variants of Holant-type problems
+- Counting complexity, especially Holant problems
+- Decision and optimization problems in Holant or edge CSP frameworks
 
 Projects and publications
 ======
 
-- Research on the computational complexity classification of decision, optimization, and counting problems under the Holant framework. This entry will later be expanded with papers, reports, or reading notes.
+- Research on counting complexity and on decision and optimization problems in Holant or edge CSP frameworks. This entry will later be expanded with papers, reports, or reading notes.
 - Database homework management system. A course project based on MySQL, Flask, Jinja2, Bootstrap, and jQuery UI.
 
 News
