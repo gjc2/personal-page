@@ -57,7 +57,10 @@ body {
 }
 
 .author__avatar img {
+  max-width: 180px;
+  border-radius: 0;
   border: 1px solid #ddd;
+  padding: 0;
 }
 
 .author__urls-wrapper .btn {

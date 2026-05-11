@@ -8,5 +8,7 @@ Main files:
 - `_pages/about.md`: homepage content
 - `_data/navigation.yml`: top navigation
 - `_publications/`: publication and research entries
-- `images/profile.png`: profile photo
+- `images/profile.jpg`: profile photo
 - `files/CV.pdf`: downloadable CV
+
+For the site to be served at `https://gjc2.github.io/`, the GitHub repository should be named `gjc2.github.io`.

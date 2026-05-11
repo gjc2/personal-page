@@ -5,11 +5,11 @@ title_separator: "-"
 name: &name "管进程"
 description: &description "管进程的个人学术主页，研究方向为 ECSP 框架下判定问题、优化问题和计数问题。"
 url: "https://gjc2.github.io"
-baseurl: "/personal-page"
-repository: "gjc2/personal-page"
+baseurl: ""
+repository: "gjc2/gjc2.github.io"
 
 author:
-  avatar: "profile.png"
+  avatar: "profile.jpg"
   name: "管进程"
   pronouns:
   bio: "计算机科学与技术本科生"
