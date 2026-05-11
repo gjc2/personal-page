@@ -1,10 +1,8 @@
 ---
 permalink: /
+title: "About me"
 author_profile: true
 ---
-
-About me
-======
 
 I am a second-year master's student in the School of Computer Science and Technology at the University of Science and Technology of China (USTC), advised by [Prof. Shuai Shao](http://staff.ustc.edu.cn/~wwwucuc/). Before that, I received my bachelor's degree from Shandong University (SDU).
 
