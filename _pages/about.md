@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Jincheng Guan"
 author_profile: true
 ---
 
