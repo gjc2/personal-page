@@ -11,10 +11,8 @@ My research interests are in theoretical computer science. More specifically, I 
 Research interests {#research}
 ======
 
-- Decision problems under the Holant framework
-- Optimization problems under the Holant framework
-- Counting problems under the Holant framework
-- Computational complexity and algorithmic structure
+- Computational complexity and dichotomy theorems in counting and constraint satisfaction frameworks
+- Decision, optimization, and counting problems under the Holant framework
 
 Projects and publications
 ======
