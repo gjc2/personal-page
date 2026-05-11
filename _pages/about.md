@@ -26,3 +26,8 @@ News
 ======
 
 - 2026.05 Migrated this academic homepage to the Academic Pages template.
+
+Contact
+======
+
+- Email: [guanjincheng@mail.ustc.edu.cn](mailto:guanjincheng@mail.ustc.edu.cn)
