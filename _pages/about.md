@@ -14,11 +14,11 @@ Research interests {#research}
 - Counting complexity, especially Holant problems
 - Decision and optimization problems in Holant or edge CSP frameworks
 
-Projects and publications
+Publications
 ======
 
-- Research on counting complexity and on decision and optimization problems in Holant or edge CSP frameworks. This entry will later be expanded with papers, reports, or reading notes.
-- Database homework management system. A course project based on MySQL, Flask, Jinja2, Bootstrap, and jQuery UI.
+- Jincheng Guan. *Counting Complexity of Holant Problems*. To appear.
+- Jincheng Guan. *Decision and Optimization Problems in Holant and Edge CSP Frameworks*. To appear.
 
 News
 ======
