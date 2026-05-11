@@ -1,18 +1,12 @@
 # Personal Academic Homepage
 
-This repository uses the HugoBlox Academic CV template for a conventional academic personal website.
+This site uses the [Academic Pages](https://github.com/academicpages/academicpages.github.io) Jekyll template and is deployed with GitHub Pages.
 
-## Local development
+Main files:
 
-1. Install Hugo Extended and Go.
-2. Install Node.js and pnpm.
-3. Run:
-
-```bash
-pnpm install
-hugo server
-```
-
-## Deployment
-
-GitHub Pages deployment is handled by the workflows in `.github/workflows/`.
+- `_config.yml`: site identity and sidebar metadata
+- `_pages/about.md`: homepage content
+- `_data/navigation.yml`: top navigation
+- `_publications/`: publication and research entries
+- `images/profile.png`: profile photo
+- `files/CV.pdf`: downloadable CV

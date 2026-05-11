@@ -1,4 +1,4 @@
-name: Build and deploy Hugo site
+name: Build and deploy Jekyll site
 
 on:
   push:
@@ -15,64 +15,30 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      GO_VERSION: "1.24.0"
-      HUGO_VERSION: "0.159.2"
-      NODE_VERSION: "20"
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          submodules: recursive
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
-      - name: Setup Go
-        uses: actions/setup-go@v6
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          go-version: ${{ env.GO_VERSION }}
-          cache: false
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+          ruby-version: "3.3"
+          bundler-cache: true
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ env.HUGO_VERSION }}
-          extended: true
-
-      - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
-
-      - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-      - name: Build search index
-        run: pnpm run pagefind
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./_site
 
   deploy:
     environment:
