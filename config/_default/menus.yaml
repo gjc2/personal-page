@@ -5,7 +5,7 @@ main:
   - name: 研究
     url: /#research
     weight: 20
-  - name: 项目与论文
+  - name: 论文
     url: /#papers
     weight: 30
   - name: 动态
