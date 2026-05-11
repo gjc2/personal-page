@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "管进程的个人学术主页，关注 AI 与 Algorithm。"
+    description: "管进程的个人学术主页，关注 ECSP 框架下判定问题、优化问题和计数问题的研究。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""              # Twitter/X handle for Twitter Cards (without @)
@@ -37,9 +37,9 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "#1f5fbf"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#3f6f59"
+      neutral: "slate"                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -68,7 +68,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "sm"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "comfortable"
     # Avatar shape in author profiles

@@ -1,11 +1,11 @@
 ---
-title: 数据库作业管理系统
-date: 2023-05-01
+title: ECSP 框架下判定、优化与计数问题研究
+date: 2026-04-20
 publication_types: ["paper-conference"]
 featured: true
-summary: 基于 MySQL、Flask、Jinja2 与 Bootstrap/jQuery UI 的课程作业管理系统，实现题目提交、题目搜索、用户评论与使用反馈等功能。
+summary: 当前研究方向占位条目，聚焦 ECSP 框架中判定问题、优化问题和计数问题的统一表达、复杂性分析与算法结构。
 ---
 
-项目技术栈：MySQL、Flask、Jinja2、Bootstrap、jQuery UI。
+这是当前研究方向的占位条目，可在后续替换为具体论文、报告或项目页面。
 
-项目内容：设计了一个可实际使用的 OJ 风格数据库系统，完成了用户提交验证、题目搜索、常用表查询等核心模块。
+关注内容包括判定问题的复杂性分类、优化问题的目标结构、计数问题的解空间规模，以及三类问题在 ECSP 框架下的相互联系。

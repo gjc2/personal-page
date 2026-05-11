@@ -5,7 +5,7 @@ date: 2026-04-20
 type: landing
 
 design:
-  spacing: '6rem'
+  spacing: '5rem'
 
 sections:
   - block: resume-biography-3
@@ -26,17 +26,26 @@ sections:
       name:
         size: md
       avatar:
-        size: medium
+        size: large
         shape: circle
   - block: markdown
+    id: research
     content:
-      title: 个人介绍
+      title: 研究兴趣
       text: |-
-        我目前就读于中国科学技术大学，研究方向为 ECSP 框架下判定问题、优化问题和计数问题的研究。
+        我目前关注 ECSP 框架下判定问题、优化问题和计数问题的研究。这个方向强调从统一的约束框架出发，理解不同问题形式的表达能力、复杂性边界与算法结构。
 
-        我关注相关理论模型中的复杂性分析、算法设计以及不同问题形式之间的联系，希望在理论计算机科学方向继续深入探索。
+        ### 判定问题
 
-        除理论研究外，我也有算法竞赛、系统开发和实验室项目训练经历。
+        研究给定实例是否满足某类约束条件，关注可判定性、复杂性分类以及结构化实例上的有效算法。
+
+        ### 优化问题
+
+        研究在约束系统中寻找最优解的问题，关注目标函数、近似算法、参数化结构以及复杂性下界。
+
+        ### 计数问题
+
+        研究满足解的数量及其计算复杂性，关注计数版本与判定、优化版本之间的联系。
     design:
       columns: '1'
   - block: collection
