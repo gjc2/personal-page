@@ -1,20 +1,20 @@
-locale: "zh-CN"
+locale: "en-US"
 site_theme: "default"
-title: "管进程"
+title: "Jincheng Guan"
 title_separator: "-"
-name: &name "管进程"
-description: &description "管进程的个人学术主页，研究方向为 ECSP 框架下判定问题、优化问题和计数问题。"
+name: &name "Jincheng Guan"
+description: &description "Jincheng Guan's academic homepage. Research interests: decision, optimization, and counting problems under the ECSP framework."
 url: "https://gjc2.github.io"
 baseurl: ""
 repository: "gjc2/gjc2.github.io"
 
 author:
   avatar: "profile.jpg"
-  name: "管进程"
+  name: "Jincheng Guan"
   pronouns:
-  bio: "计算机科学与技术本科生"
-  location: "中国科学技术大学"
-  employer: "计算机科学与技术学院"
+  bio: "Undergraduate student in Computer Science and Technology"
+  location: "University of Science and Technology of China"
+  employer: "School of Computer Science and Technology"
   uri:
   email: "guanjc02@gmail.com"
   academia:

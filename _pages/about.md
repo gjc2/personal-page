@@ -1,34 +1,34 @@
 ---
 permalink: /
-title: "管进程"
+title: "Jincheng Guan"
 author_profile: true
 ---
 
-我是中国科学技术大学计算机科学与技术学院计算机科学与技术专业学生。我的研究方向是 **ECSP 框架下判定问题、优化问题和计数问题的研究**。
+I am an undergraduate student in Computer Science and Technology at the School of Computer Science and Technology, University of Science and Technology of China. My research interests lie in **decision, optimization, and counting problems under the ECSP framework**.
 
-我关注约束表达能力、复杂性边界与算法结构之间的关系，希望继续在理论计算机科学方向开展更系统的学习与研究。
+I am interested in the relationship between expressive power, complexity boundaries, and algorithmic structure in constraint-based frameworks. I hope to continue working in theoretical computer science, especially on unified perspectives connecting decision, optimization, and counting variants.
 
 Research interests {#research}
 ======
 
-- ECSP 框架下的判定问题
-- ECSP 框架下的优化问题
-- ECSP 框架下的计数问题
-- 计算复杂性与算法结构
+- Decision problems under the ECSP framework
+- Optimization problems under the ECSP framework
+- Counting problems under the ECSP framework
+- Computational complexity and algorithmic structure
 
 Education
 ======
 
-- 中国科学技术大学，计算机科学与技术学院，计算机科学与技术本科，2024 至今
-- 山东大学，计算机科学与技术学院，泰山学堂计算机专业，2020-2024
+- University of Science and Technology of China, School of Computer Science and Technology, B.S. in Computer Science and Technology, 2024-present
+- Shandong University, School of Computer Science and Technology, Taishan College program in Computer Science, 2020-2024
 
 Projects and publications
 ======
 
-- ECSP 框架下判定、优化与计数问题研究。当前研究方向占位条目，后续可补充具体论文、报告或阅读笔记。
-- 数据库作业管理系统。基于 MySQL、Flask、Jinja2、Bootstrap 和 jQuery UI 的课程项目。
+- Research on decision, optimization, and counting problems under the ECSP framework. This entry will later be expanded with papers, reports, or reading notes.
+- Database homework management system. A course project based on MySQL, Flask, Jinja2, Bootstrap, and jQuery UI.
 
 News
 ======
 
-- 2026.05 个人学术主页迁移至 Academic Pages 模板。
+- 2026.05 Migrated this academic homepage to the Academic Pages template.

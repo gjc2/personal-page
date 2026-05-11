@@ -1,4 +1,4 @@
-# Personal Academic Homepage
+# Jincheng Guan's Academic Homepage
 
 This site uses the [Academic Pages](https://github.com/academicpages/academicpages.github.io) Jekyll template and is deployed with GitHub Pages.
 
