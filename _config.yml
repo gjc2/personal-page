@@ -3,7 +3,7 @@ site_theme: "default"
 title: "Jincheng Guan"
 title_separator: "-"
 name: &name "Jincheng Guan"
-description: &description "Jincheng Guan's academic homepage. Research interests: decision, optimization, and counting problems under the ECSP framework."
+description: &description "Jincheng Guan's academic homepage. Research interests: computational complexity classification of decision, optimization, and counting problems under the Holant framework."
 url: "https://gjc2.github.io"
 baseurl: ""
 repository: "gjc2/gjc2.github.io"
@@ -12,7 +12,7 @@ author:
   avatar: "profile.jpg"
   name: "Jincheng Guan"
   pronouns:
-  bio: "Undergraduate student in Computer Science and Technology"
+  bio: "Master's student in Computer Science and Technology"
   location: "University of Science and Technology of China"
   employer: "School of Computer Science and Technology"
   uri:

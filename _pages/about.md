@@ -6,22 +6,22 @@ author_profile: true
 About me
 ======
 
-I am an undergraduate student in Computer Science and Technology at the School of Computer Science and Technology, University of Science and Technology of China. My research interests lie in **decision, optimization, and counting problems under the ECSP framework**.
+I am a second-year master's student in the School of Computer Science and Technology at the University of Science and Technology of China (USTC), advised by [Prof. Shuai Shao](http://staff.ustc.edu.cn/~wwwucuc/). Before that, I received my bachelor's degree from Shandong University (SDU).
 
-I am interested in the relationship between expressive power, complexity boundaries, and algorithmic structure in constraint-based frameworks. I hope to continue working in theoretical computer science, especially on unified perspectives connecting decision, optimization, and counting variants.
+My research interests are in theoretical computer science. More specifically, I focus on the computational complexity classification of decision, optimization, and counting problems under the Holant framework.
 
 Research interests {#research}
 ======
 
-- Decision problems under the ECSP framework
-- Optimization problems under the ECSP framework
-- Counting problems under the ECSP framework
+- Decision problems under the Holant framework
+- Optimization problems under the Holant framework
+- Counting problems under the Holant framework
 - Computational complexity and algorithmic structure
 
 Projects and publications
 ======
 
-- Research on decision, optimization, and counting problems under the ECSP framework. This entry will later be expanded with papers, reports, or reading notes.
+- Research on the computational complexity classification of decision, optimization, and counting problems under the Holant framework. This entry will later be expanded with papers, reports, or reading notes.
 - Database homework management system. A course project based on MySQL, Flask, Jinja2, Bootstrap, and jQuery UI.
 
 News
