@@ -14,7 +14,7 @@ Research interests {#research}
 - Counting complexity, especially Holant problems
 - Decision and optimization problems in Holant or edge CSP frameworks
 
-Publications
+Publications {#publications}
 ======
 
 - To appear.
