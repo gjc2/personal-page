@@ -17,8 +17,8 @@ Research interests {#research}
 Publications
 ======
 
-- Jincheng Guan. *Counting Complexity of Holant Problems*. To appear.
-- Jincheng Guan. *Decision and Optimization Problems in Holant and Edge CSP Frameworks*. To appear.
+- To appear.
+- To appear.
 
 News
 ======

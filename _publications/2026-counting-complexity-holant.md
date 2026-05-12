@@ -1,12 +1,12 @@
 ---
-title: "Counting Complexity of Holant Problems"
+title: "To appear"
 collection: publications
 category: manuscripts
-permalink: /publication/counting-complexity-holant
+permalink: /publication/to-appear-1
 excerpt: "To appear."
 date: 2026-05-12
 venue: "To appear"
-citation: "Jincheng Guan. Counting Complexity of Holant Problems. To appear."
+citation: "To appear."
 ---
 
 To appear.
